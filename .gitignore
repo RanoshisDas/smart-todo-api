@@ -4,10 +4,15 @@ __pycache__/
 *.pyo
 *.pyd
 *.log
+*.egg-info/
+.eggs/
 
-# Virtual Environment
+# Virtual Environment & secrets
 venv/
 .env
+
+# FastAPI / Uvicorn
+.watchfiles/
 
 # IDE / Editor
 .vscode/
@@ -17,15 +22,24 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+.python-version
 
-# Test cache
+# Testing
 .pytest_cache/
 .coverage
 
 # MongoDB
 *.bson
+data/
 
-# Node / Frontend (if added later)
+# Logs
+logs/
+
+# Node / Frontend (future)
 node_modules/
 dist/
 build/
+
+# macOS AppleDouble (external drives)
+._*
+.___*
