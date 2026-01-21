@@ -1,10 +1,3 @@
-Below is a **final, interview-optimized `README.md`** tailored for your **Smart ToDo API** project.
-It is concise, professional, recruiter-friendly, and technically clear.
-
-You can **copy–paste this directly** into your repository’s `README.md`.
-
----
-
 # Smart ToDo API 📝
 
 *A secure, scalable REST API for task management*
